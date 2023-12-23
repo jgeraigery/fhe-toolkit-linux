@@ -7,7 +7,7 @@ name = "pypi"
 click = "*"            # Required for the CLI parser
 
 [dev-packages]
-black = "==19.10b0"    # Python code formatter, used by `make tidy`
+black = "==23.12.1"    # Python code formatter, used by `make tidy`
 isort = "*"            # Sort imports alphabetically, used by `make tidy`
 pdoc3 = ">=0.8.0"      # Builds documentation from PyDoc, used by `make doc`
 pipenv-setup = "*"     # Sync dependencies in Pipfile/Pipfile.lock to setup.py
